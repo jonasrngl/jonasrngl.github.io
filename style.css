@@ -1,0 +1,124 @@
+*{
+    background-color: #2A2A29;
+}
+
+.nome{
+    display:flex;
+    color: #eb7741;
+    justify-content: left;
+    padding-left: 40px;
+    text-shadow: 1px 1px 3px black;
+    margin-bottom: 0px;
+
+}
+
+.nome2{
+    display:flex;
+    color: #f7986d;
+    justify-content: left;
+    padding-left: 75px;
+    text-shadow: 1px 1px 3px black;
+    margin-top:0px;
+
+}
+
+
+img{
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 70px;
+}
+
+.imgandtext{
+    background-color: #212120;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 75px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.text{
+    background-color: inherit;
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.c1{
+    background-color: inherit;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 3px black;
+    padding: 2px 0px;
+}
+
+.c2{
+    background-color: inherit;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 3px black;
+    padding: 2px 0px;
+}
+
+.c3{
+    background-color: inherit;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 3px black;
+    padding: 2px 0px;
+}
+
+.titulo2{
+    padding-top: 15px;
+    padding-left: 65px;
+    color: #eb7741;
+    text-shadow: 1px 1px 3px black;
+}
+
+.abouttext{
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-left: 90px;
+}
+
+.sdiv{
+    margin-top: 200px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.song{
+    width: 450px;
+    height: 80px; 
+    border-radius:12px;
+}
+
+/*propriedades de links*/
+ .github:link, .github:visited {
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: #e7542f;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 3px black;
+    padding: 6px 11px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.github:hover {
+    background-color: #f16441;
+    color: #FFFFFF;
+}
+  
+.github:active {
+    background-color: #e44118;
+    color: #FFFFFF;
+} 
