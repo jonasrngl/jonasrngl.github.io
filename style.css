@@ -80,14 +80,18 @@ img{
 }
 
 .abouttext{
+    line-break: normal;
     color: #FFFFFF;
     padding-top: 10px;
     padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 100px;
 }
 
 .sdiv{
-    margin-top: 200px;
-    margin-right: 50px;
+    position:fixed;
+    right:0px;
+    bottom:0px;
     display: flex;
     justify-content: right;
     align-items: flex-end;
