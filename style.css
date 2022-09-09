@@ -2,22 +2,22 @@
     background-color: #2A2A29;
 }
 
-.nome{
+.name{
     display:flex;
     color: #eb7741;
     justify-content: left;
     padding-left: 40px;
-    text-shadow: 1px 1px 3px black;
+    text-shadow: 1px 1px 3px #000000;
     margin-bottom: 0px;
 
 }
 
-.nome2{
+.name2{
     display:flex;
     color: #f7986d;
     justify-content: left;
     padding-left: 75px;
-    text-shadow: 1px 1px 3px black;
+    text-shadow: 1px 1px 3px #000000;
     margin-top:0px;
 
 }
@@ -54,29 +54,29 @@ img{
 .c1{
     background-color: inherit;
     color: #FFFFFF;
-    text-shadow: 1px 1px 3px black;
+    text-shadow: 1px 1px 3px #000000;
     padding: 2px 0px;
 }
 
 .c2{
     background-color: inherit;
     color: #FFFFFF;
-    text-shadow: 1px 1px 3px black;
+    text-shadow: 1px 1px 3px #000000;
     padding: 2px 0px;
 }
 
 .c3{
     background-color: inherit;
     color: #FFFFFF;
-    text-shadow: 1px 1px 3px black;
+    text-shadow: 1px 1px 3px #000000;
     padding: 2px 0px;
 }
 
-.titulo2{
+.title2{
     padding-top: 15px;
     padding-left: 65px;
     color: #eb7741;
-    text-shadow: 1px 1px 3px black;
+    text-shadow: 1px 1px 3px #000000;
 }
 
 .abouttext{
@@ -85,44 +85,66 @@ img{
     padding-top: 10px;
     padding-left: 90px;
     padding-right: 90px;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
 }
 
 .sdiv{
     position:fixed;
-    right:0px;
-    bottom:0px;
+    right:5px;
+    bottom:5px;
     display: flex;
     justify-content: right;
     align-items: flex-end;
 }
 
 .song{
-    width: 450px;
-    height: 80px; 
-    border-radius:12px;
+    width: 25.125rem;
+    height: 5rem; 
+    border-radius:0.75rem;
+    box-shadow: 1px 1px 1px #0e0e0e67;
+}
+
+.buttons{
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: inherit;
+    display:flex;
+    flex-direction: row;
 }
 
 /*propriedades de links*/
- .github:link, .github:visited {
-    margin-top: 15px;
-    margin-left: 20px;
+ .github:link, .github:visited, .linkedin:link, .linkedin:visited, .instagram:link, .instagram:visited {
     background-color: #e7542f;
     color: #FFFFFF;
-    text-shadow: 1px 1px 3px black;
+    margin-right:15px;
+    text-shadow: 1px 1px 3px #000000;
     padding: 6px 11px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     border-radius: 3px;
+    box-shadow: 1px 1px 3px #0e0e0e67;
 }
 
-.github:hover {
+.github:hover, .linkedin:hover, .instagram:hover {
     background-color: #f16441;
     color: #FFFFFF;
 }
   
-.github:active {
+.github:active, .linkedin:active, .instagram:active  {
     background-color: #e44118;
     color: #FFFFFF;
 } 
+
+.list{
+    margin-left: 70px;
+    color: #FFFFFF;
+    padding-bottom: 100px;
+}
+
+.title3{
+    padding-top: 15px;
+    padding-left: 80px;
+    color: #eb7741;
+    text-shadow: 1px 1px 3px #000000;
+}
