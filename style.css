@@ -79,6 +79,13 @@ img{
     text-shadow: 1px 1px 3px #000000;
 }
 
+.projectsTitle{
+    padding-top: 15px;
+    padding-left: 65px;
+    color: #eb7741;
+    text-shadow: 1px 1px 3px #000000;
+}
+
 .abouttext{
     line-break: normal;
     color: #FFFFFF;
@@ -135,6 +142,12 @@ img{
     background-color: #e44118;
     color: #FFFFFF;
 } 
+
+.project:link, .project:visited, .project:active, .project:hover{
+    background-color: inherit;
+    color: #FFFFFF;
+    text-decoration: none;
+}
 
 .list{
     margin-left: 70px;
